@@ -1,10 +1,5 @@
 library IEEE;
-use IEEE.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
-entity counter1 is
-    port (
-        clk: in STD_LOGIC;
-        set,reset: in STD_LOGIC;
+use IEEE.std_logic
         enable: in STD_LOGIC;
         load: in STD_LOGIC;
         data: in STD_LOGIC_VECTOR (7 downto 0);
