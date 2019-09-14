@@ -1,10 +1,5 @@
 library ieee;
-use ieee.std_logic_1164.all;
-entity counter_int is
-    port (clk:in std_logic;
-           count:out Integer range 0 to 255);
-end counter_int;
-architecture behavioral of counter_int is
+use ieee.std_l
     begin
 counter:process(clk)
         variable cnt:Integer range 0 to 255;	--(1)
