@@ -1,7 +1,4 @@
-Entity ha is
-port	(a,b:in bit ;
-         s,co:out bit);
-end;	
+
 
 architecture dataflow of ha is
 begin
