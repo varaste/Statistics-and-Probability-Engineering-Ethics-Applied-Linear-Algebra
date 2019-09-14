@@ -5,9 +5,7 @@ entity flipwait is
     port (
         clk: in STD_LOGIC;
         d: in STD_LOGIC;
-        q: out STD_LOGIC
-    );
-end flipwait;
+    
 
 architecture flipwait_arch of flipwait is
 begin
