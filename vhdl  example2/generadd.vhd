@@ -7,11 +7,7 @@ entity generadd is
         a: in STD_LOGIC_VECTOR (n-1 downto 0);
         b: in STD_LOGIC_VECTOR (n-1 downto 0);
         cin: in STD_LOGIC;
-        sum: out STD_LOGIC_VECTOR (n-1 downto 0);
-        cout: out STD_LOGIC
-    );
-end generadd;
-
+        sum: out STD_LOGIC_VECTOR
 architecture generadd_arch of generadd is
     signal c:std_logic_vector (n downto 0);
 begin
