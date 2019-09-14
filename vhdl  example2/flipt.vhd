@@ -8,13 +8,7 @@ entity flipt is
     );
 end flipt;
 
-architecture flipt_arch of flipt is
-begin
-process (clk)
-begin
-	if (clk'event and clk='1') then
-		if t='1' then
-		q<=not(q);
+arch
 		else
 		q<=q;
 		end if;
