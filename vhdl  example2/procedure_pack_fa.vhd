@@ -9,11 +9,6 @@ procedure full_adder(a,b,c :in std_logic; sum, cout : out std_logic);
 end;
 
 package body my_pack is     --(3)
---declaring procedure of Full Adder 1-bit        
-procedure full_adder(a,b,c :in std_logic; sum, cout : out std_logic) is
-begin
-	sum	:= a XOR b XOR c;
-	cout:=(a AND b) OR (b AND c) OR (c AND a);
 end full_adder;
 --end declaring
 end my_pack;			    --(9)
