@@ -9,9 +9,4 @@ entity function_ex is
 end entity;
 architecture behavior of function_ex is
 --declaring function of carry        
-function carry(bit1,bit2,bit3:in std_logic) return std_logic is
-variable result:std_logic;
-begin
-result:=(bit1 AND bit2) OR (bit1 AND bit3) OR (bit2 AND bit3);
-
-end architecture;
+function carry(bit1,bit2,bit3:in std_l
