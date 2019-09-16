@@ -1,9 +1,5 @@
 ibrary IEEE;
-use IEEE.std_logic_1164.all;
-
-entity flipd is
-    port (
-        d: in STD_LOGIC;
+use IEC;
         clk: in STD_LOGIC;
         clr: in ST
 q_out <='0';
