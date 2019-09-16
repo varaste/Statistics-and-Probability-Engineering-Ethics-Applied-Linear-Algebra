@@ -1,13 +1,4 @@
-library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity flipwait is
-    port (
-        clk: in STD_LOGIC;
-        d: in STD_LOGIC;
-    
-
-architecture flipwait_arch of flipwait is
+_arch of flipwait is
 begin
    process
       begin
