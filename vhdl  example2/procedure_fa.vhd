@@ -10,9 +10,7 @@ port(
 	sum:out std_logic_vector(3 downto 0);
 	cout:out std_logic);
 end entity;
-architecture proc of procedure_fa is
---declaring procedure of Full Adder 1-bit        
-procedure full_adder(a,b,c :in std_logic;  sum, cout : out std_logic) is
+architecture proc of
 begin
 	sum	:= a XOR b XOR c;	--Note: sum and cout are OUT and VARIABLE
 	cout:=(a AND b) OR (b AND c) OR (c AND a); 
