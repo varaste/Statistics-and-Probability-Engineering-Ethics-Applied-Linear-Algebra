@@ -5,8 +5,7 @@ entity generadd is
    generic (n:natural:=8);
     port (
         a: in STD_LOGIC_VECTOR (n-1 downto 0);
-        b: in STD_LOGIC_VECTOR (n-1 downto 0);
-        cin: in STD_LOGIC;
+        b: in STD_LOGI
         sum: out STD_LOGIC_VECTOR
 architecture generadd_arch of generadd is
     signal c:std_logic_vector (n downto 0);
