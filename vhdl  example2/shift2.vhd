@@ -11,12 +11,5 @@ end shift2;
 
 architecture shift2_arch of shift2 is
 begin
-   process(clk,load)
-        begin
-            if load='1' then
-               qout<=data_in;
-            elsif(clk'event and clk='1') then
-            qout<=seri_rig & qout(7 downto 1);
-            end if;
    end process;            
 end shift2_arch;
