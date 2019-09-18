@@ -13,10 +13,3 @@ architecture proc_if2_arch of proc_if2 is
 begin
    process(a,b)
       begin
-         if a=b then
-           equal<='1';
-         else
-           equal<='0';
-         end if;
-   end process;      
-end proc_if2_arch;
