@@ -2,9 +2,6 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity registd is
-    port (
-        d: in STD_LOGIC_VECTOR (7 downto 0);
-        clk: in STD_LOGIC;
         q: out STD_LOGIC_VECTOR (7 downto 0)
     );
 end registd;
