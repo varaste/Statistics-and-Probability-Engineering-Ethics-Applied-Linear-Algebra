@@ -1,9 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity proc_if2 is
-    port (
-        a: in STD_LOGIC_VECTOR (7 downto 0);
+(7 downto 0);
         b: in STD_LOGIC_VECTOR (7 downto 0);
         equal: out STD_LOGIC
     );
