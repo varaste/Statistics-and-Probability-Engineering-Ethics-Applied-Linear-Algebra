@@ -2,17 +2,6 @@
 --multiplexer 4 to 1 (4 bits), using 'with-- select' 
 --
 library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity maxwith is
-    port (
-        a: in STD_LOGIC_VECTOR (3 downto 0);
-        b: in STD_LOGIC_VECTOR (3 downto 0);
-        c: in STD_LO
-        s: in STD_LOGIC_VECTOR (1 downto 0);
-        x: out STD_LOGIC_VECTOR (3 downto 0)
-    );
-end maxwith;
 
 architecture maxwith_arch of maxwith is
 begin
