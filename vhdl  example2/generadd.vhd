@@ -7,10 +7,4 @@ entity generadd is
      
    c(0)<=cin;
 gen: for i in 0 to n-1 generate
-      sum(i)<=a(i) xor b(i) xor c(i);
-      c(i+1)<=  (a(i) and b(i)) or
-                (a(i) and c(i)) or
-                (b(i) and c(i));
-end generate;
-      cout<=c(n);                 
-end generadd_arch;
+      sum(i)<=a(i) xor b(i) xor c(i
