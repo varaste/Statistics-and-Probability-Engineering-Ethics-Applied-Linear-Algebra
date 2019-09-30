@@ -1,5 +1,3 @@
 library ieee;
-use ieee.std_l
-    begin
-counter:process(clk)
+use ieee.std_lclk)
      nt AND clk=
