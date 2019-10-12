@@ -11,10 +11,6 @@ entity maxwhen is
     );
 end maxwhen;
 
-architecture maxwhen_arch of maxwhen is
-begin
-    x<=a when (s="00") else
-       b when (s="01") else
        c when (s="10") else
        d;
 end maxwhen_arch;
