@@ -1,2 +1,0 @@
-ibrary IEEE;
-use IEC;
