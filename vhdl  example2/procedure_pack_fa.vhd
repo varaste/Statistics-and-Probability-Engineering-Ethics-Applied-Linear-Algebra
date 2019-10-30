@@ -8,16 +8,6 @@ package my_pack is		    --(1)
 procedure full_adder(a,b,c :in std_logic; sum, cout : out std_logic);
 end;
 
-package body my_pack is     --(3)
-end full_adder;
---end declaring
-end my_pack;			    --(9)
------------------------------------------------------------
-library ieee;
-use ieee.std_logic_1164.all;
-use work.my_pack.all;		--(1)
-entity procedure_pack_fa is  
-port(
 	a,b:in std_logic_vector(3 downto 0);
 	cin:in std_logic;
 	sum:out std_logic_vector(3 downto 0);
