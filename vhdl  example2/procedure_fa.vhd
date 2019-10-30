@@ -7,14 +7,7 @@ entity procedure_fa is
 port(
 	a,b:in std_logic_vector(3 downto 0);
 	cin:in std_logic;
-	sum:out std_logic_vector(3 downto 0);
-	cout:out std_logic);
-end entity;
-architecture proc of
-begin
-	sum	:= a XOR b XOR c;	--Note: sum and cout are OUT and VARIABLE
-	cout:=(a AND b) OR (b AND c) OR (c AND a); 
-end full_adder;
+	sum:out std_lo
 --end declaring
 begin
 process(a,b,cin)
