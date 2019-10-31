@@ -3,14 +3,7 @@
 -----------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
-package my_pack is		    --(1)
---declaring procedure full-adder
-procedure full_adder(a,b,c :in std_logic; sum, cout : out std_logic);
-end;
-
-	a,b:in std_logic_vector(3 downto 0);
-	cin:in std_logic;
-	sum:out std_logic_vector(3 downto 0);
+package my_pack d_logic_vector(3 downto 0);
 	cout:out std_logic);
 end entity;
 architecture proc_pack of procedure_pack_fa is
