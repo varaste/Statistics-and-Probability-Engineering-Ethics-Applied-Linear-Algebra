@@ -23,9 +23,5 @@ entity ROM is
 				"0100",		-- 28
 				"0110",		-- 29
 				"1000",		-- 30
-				"1010"		-- 31
-				);
-begin
-	do 	<= mem(conv_integer(adr));
-end dataflow;
+				"1010"		-- 
 
